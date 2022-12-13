@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(51, 165, 165);
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
+}
+
+div {
+    text-align: center;
+    padding: 20px;
+}
+
+div#msg {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+}
+
+footer > p > a {
+    color: rgb(146, 250, 253);
+    text-decoration: none;
+}
